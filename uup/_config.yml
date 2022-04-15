@@ -113,6 +113,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+# Collections
+collections:  
+  docs:
+      output: true
+      permalink: /:collection/:path/
 
 category_archive:
   type: liquid
